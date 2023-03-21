@@ -1,5 +1,5 @@
 import Card from './Card'
-import FormFields from './FormFields'
 import Loader from './Loader'
+import FormField from './FormField'
 
-export { Card, Loader, FormFields }
+export { Card, Loader, FormField }
