@@ -33,7 +33,7 @@ router.route('/').post(async (req, res) => {
     console.error(error)
     res
       .status(500)
-      .send(error?.response.data.error.message || 'Something went wrong')
+      .send(error?.response.error.message || 'Something went wrong')
   }
 })
 
