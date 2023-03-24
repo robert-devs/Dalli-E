@@ -74,8 +74,9 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="mt-16">
+      <div className="mt-16 w-[50%]">
         <FormField
+          className="w-50 text-[#4af8f8]"
           labelName="Search posts"
           type="text"
           name="text"
@@ -94,7 +95,7 @@ const Home = () => {
           <>
             {searchText && (
               <h2 className="font-medium text-[#666e75] text-xl mb-3">
-                Showing Resuls for{' '}
+                Showing Results for{' '}
                 <span className="text-[#222328]">{searchText}</span>:
               </h2>
             )}
