@@ -76,7 +76,6 @@ const Home = () => {
 
       <div className="mt-16 w-[50%]">
         <FormField
-          className="w-50 text-[#4af8f8]"
           labelName="Search posts"
           type="text"
           name="text"
